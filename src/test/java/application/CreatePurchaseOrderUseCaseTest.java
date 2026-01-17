@@ -5,12 +5,13 @@ import java.math.BigDecimal;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
+import application.port.PurchaseOrderRepository;
+import application.usecase.CreatePurchaseOrderUseCase;
 import domain.CustomerId;
 import domain.OrderId;
 import domain.OrderItem;
 import domain.PurchaseOrder;
 import domain.PurchaseOrderBuilder;
-import domain.port.PurchaseOrderRepository;
 
 class CreatePurchaseOrderUseCaseTest {
 

@@ -1,8 +1,8 @@
-package application;
+package application.usecase;
 
+import application.port.PurchaseOrderRepository;
 import domain.PurchaseOrder;
 import domain.PurchaseOrderBuilder;
-import domain.port.PurchaseOrderRepository;
 
 public class CreatePurchaseOrderUseCase {
 

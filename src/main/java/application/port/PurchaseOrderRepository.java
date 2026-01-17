@@ -1,4 +1,4 @@
-package domain.port;
+package application.port;
 
 import domain.PurchaseOrder;
 
